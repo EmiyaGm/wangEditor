@@ -68,3 +68,16 @@ editor.create()
 
 ![图片](https://camo.githubusercontent.com/e1558b631931e0a1606c769a61f48770cc0ccb56/687474703a2f2f696d61676573323031352e636e626c6f67732e636f6d2f626c6f672f3133383031322f3230313730322f3133383031322d32303137303232383131323233373739382d313530373139363634332e706e67)
 
+
+## 过去在typescript下使用的说明
+
+```javascript
+    import * as Editor from "wangeditor";
+
+    public componentDidMount() {
+        const elem = this.editorElem;
+        const editor = new Editor(elem);
+        editor.create();
+    }
+```
+
